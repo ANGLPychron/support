@@ -1,0 +1,6 @@
+enabled: True
+threshold: 1
+period: 1
+frequency: 1
+duration: 5
+start_amplitude: 0.1
