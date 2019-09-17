@@ -1,12 +1,5 @@
 <?xml version='1.0' encoding='ASCII'?>
-<root>
-
-  #Furnace
-  <valve>FT<address>FT</address><description>Furnace Turbo</description></valve>
-  <valve>RT<address>RT</address><description>Roughing Turbo</description></valve>
-  <valve>FG<address>FG</address><description>Furnace Getter</description></valve>
-  <valve>FR<address>FR</address><description>Furnace Roughing</description></valve>
-  
+<root> 
   <valve>A<address>Valve AUX 1 Set</address><description>Inlet 1</description></valve>
   <valve>B<address>Valve AUX 2 Set</address><description>Inlet 2</description></valve>
   <valve>C<address>Valve Inlet Set</address><description>ExtrToMS</description></valve>
