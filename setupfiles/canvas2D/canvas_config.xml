@@ -1,8 +1,8 @@
 <root>
 	<origin>0,0</origin>
-	<xview>-45,35.5</xview>
-	<yview>-40,40</yview>
-	<color tag="bgcolor">white
+	<xview>-25,25.5</xview>
+	<yview>-30,30</yview>
+	<color tag="bgcolor">orange
 	</color>
 	<!--
 	<color tag="turbo">255,127,0

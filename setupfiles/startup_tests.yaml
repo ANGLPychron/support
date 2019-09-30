@@ -1,20 +1,12 @@
-
-- plugin: Database Plugin
-  tests:
-    - test_pychron
-    - test_pychron_version
-- plugin: MassSpecPlugin
-  tests:
-    - test_database
 - plugin: LabBookPlugin
   tests:
-- plugin: ArArConstants Plugin
+- plugin: ArArConstants
   tests:
-- plugin: ArgusSpectrometer Plugin
+- plugin: ArgusSpectrometer
   tests:
     - test_communication
     - test_intensity
-- plugin: ExtractionLine Plugin
+- plugin: ExtractionLine
   tests:
     - test_valve_communication
     - test_gauge_communication
@@ -26,10 +18,3 @@
   tests:
     - test_api
     
-- plugin: NMGRLFurnace Plugin
-  tests:
-    - test_furnace_api
-    - test_furnace_cam
-- plugin: Sparrow
-  tests:
-    - test_database
