@@ -1,0 +1,45 @@
+#script defaults file
+#defines default pyscripts for the analysis types
+#this yaml file returns a dictionary of dictionaries
+#.py does not have to be included for graphic clarity.
+Ba:
+ extraction: ArRef
+ measurement: unknown600_180
+ post_equilibration: pump_v1
+ post_measurement: pump_ms
+Bu:
+ extraction:
+ measurement: unknown600_180
+ post_equilibration: pump_v1
+ post_measurement: pump_ms
+ FusionsCO2:
+   extraction: co2
+   cleanup: 30
+   duration: 30
+ FusionsDiode:
+   cleanup: 30
+   duration: 30
+A:
+ extraction: ArRef
+ measurement: unknown600_180
+ post_equilibration: pump_v1
+ post_measurement: pump_ms
+U:
+ extraction:
+ measurement: unknown600_180
+ post_equilibration: pump_v1
+ post_measurement: pump_ms
+ FusionsCO2:
+   extraction: co2
+   cleanup: 30
+   duration: 30
+ FusionsDiode:
+   cleanup: 30
+   duration: 30
+Pa:
+ extraction: pause
+ measurement:
+ post_equilibration:
+ post_measurement:
+
+
